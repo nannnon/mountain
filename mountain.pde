@@ -25,12 +25,13 @@ void draw()
   
   display();
   
-  maxHeight += 0.02;
+  maxHeight += 0.004;
   if (maxHeight >= 1)
   {
     genImage();
     maxHeight = 0;
   }
+  //saveFrame("frames/######.png");
 }
 
 void genImage()
